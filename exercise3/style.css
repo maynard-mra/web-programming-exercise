@@ -1,0 +1,61 @@
+.megabox {
+    background-color: lightgray;
+    width: 800px;
+    height: auto;
+    margin: auto;
+    margin-top: -20px;
+    margin-bottom: -20px;
+    padding: 20px;
+}
+
+.vidimgbox {
+    width: 840px;
+    height: auto;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 400%;
+}
+
+nav {
+    text-align: center;
+}
+
+/*to only add space between a's, not the last one*/
+nav a:not(:last-child) {
+    margin-right: 75px;
+}
+
+#img-right {
+  float: right;
+  width: 400px;
+  margin-left: 25px;
+  margin-bottom: 15px;
+}
+
+.imgs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.imgs img {
+    height: 300px;
+}
+
+#train {
+    width: 307px;
+}
+/* #camera {} */
+#snow {
+    width: 540px;
+    margin-left: -233px;
+}
+#hill {
+    width: 500px;
+}
+#car {
+    width: 340px;
+    margin-left: -33px;
+}

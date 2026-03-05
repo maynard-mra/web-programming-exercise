@@ -1,0 +1,24 @@
+.megabox{
+  width: 800px;
+  margin: auto;
+}
+
+.headbox {
+
+  height: 150px;         
+  background-color: lightgrey; 
+  padding: 20px;              
+  margin: 5px;               
+}
+.box {
+
+  height: 150px;  
+  background-color: lightgrey; 
+  padding: 20px;               
+  margin: 5px;                
+  display: flex;
+  align-items: center;
+}
+.text {
+    margin: 5px;
+}

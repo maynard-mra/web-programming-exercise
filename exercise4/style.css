@@ -1,0 +1,40 @@
+body {
+    background-color: magenta;
+}
+
+img {          
+    display: block;
+    margin: auto;
+}
+
+button {
+    display: block;
+    margin-top: -10px;
+    margin-bottom: 5px;
+}
+
+li {
+    font-size: 200%;
+}
+
+.megabox {
+    width: 600px;
+    margin: auto;
+}
+
+#divider {
+    width: 600px;
+}
+
+#shop {
+    height: 70px;
+    width: 70px;
+    float: right;
+}
+
+.statement {
+    background-color: white;
+    color: aqua;
+    width: 600px;
+    text-align: center;
+}
