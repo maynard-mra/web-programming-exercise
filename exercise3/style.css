@@ -3,15 +3,7 @@
     width: 800px;
     height: auto;
     margin: auto;
-    margin-top: -20px;
-    margin-bottom: -20px;
     padding: 20px;
-}
-
-.vidimgbox {
-    width: 840px;
-    height: auto;
-    margin: auto;
 }
 
 h1 {
@@ -28,16 +20,25 @@ nav a:not(:last-child) {
     margin-right: 75px;
 }
 
+p {
+  line-height: 1.7;
+}
+
+
 #img-right {
   float: right;
   width: 400px;
+  height: 400px;
   margin-left: 25px;
-  margin-bottom: 15px;
+  margin-bottom: -1px;
 }
 
 .imgs {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    width: 840px;
+    height: auto;
+    margin: auto;
 }
 
 .imgs img {
